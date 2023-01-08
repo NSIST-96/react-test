@@ -1,12 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Content from './Components/Content';
+import Header from './Components/Header';
+import Navbar from './Components/Navbar';
 
 const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        Hello world!
-      </header>
+      <Header />
+      <Navbar />
+      <Content />
     </div>
   );
 }
