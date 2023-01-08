@@ -54,7 +54,11 @@
 
   border-radius: 5px;
   background-color: chartreuse;
-  padding: 3px;
+  padding: 10px;
+}
+
+.content img{
+  width: 300px;
 }
 
 .footer{
