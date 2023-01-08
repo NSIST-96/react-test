@@ -1,15 +1,68 @@
 .App{
   display: grid;
+  margin: 7px;
+  grid-template-areas: 
+  "header header"
+  "navbar content"
+  "footer footer";
+  grid-template-columns: minmax(100px, 250px) 4fr;
+  grid-gap: 10px;
+  grid-auto-rows: minmax(75px, auto);
 }
 
 .header {
+  grid-area: "header";
+  grid-column: 1/-1;
+
+  border-radius: 5px;
   background-color: blue;
+  padding: 3px;
 }
 
+.header-items{
+  display: grid;
+  grid-template-columns: 130px 1fr;
+}
+
+.header-items img{
+  width: 100px;
+  margin: 5px;
+}
+
+
+
 .navbar{
+  grid-area: "navbar";
+  grid-column-start: 1;
+  grid-row: 2;
+
+  border-radius: 5px;
   background-color: aqua;
 }
 
+.navbar-elements{
+  display: grid;
+  grid-row: repeat(5, 50px);
+
+  margin: 5px;
+}
+
 .content{
+  grid-area: "content";
+  grid-column: 2/-1;
+  grid-row: 2;
+
+  border-radius: 5px;
   background-color: chartreuse;
+  padding: 3px;
+}
+
+.footer{
+  grid-area: "footer";
+  grid-column: 1/-1;
+  grid-row: 3;
+
+  border-radius: 5px;
+  background-color: darkslategrey;
+  padding: 3px;
 }
