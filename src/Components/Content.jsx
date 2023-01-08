@@ -1,7 +1,8 @@
 import React from "react"
+import classes from "./Content.module.css"
 
 const Content = () =>{
-    return <div className='content'>
+    return <div className={classes.content}>
         <img src="https://abc-decor.com/img/gallery/12/thumbs/thumb_l_PL35736.jpg" alt="img"></img>
         <p>Ava + name</p>
         <p>Info</p>

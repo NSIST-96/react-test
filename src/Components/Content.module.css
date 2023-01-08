@@ -1,0 +1,13 @@
+.content{
+    grid-area: "content";
+    grid-column: 2/-1;
+    grid-row: 2;
+  
+    border-radius: 5px;
+    background-color: chartreuse;
+    padding: 10px;
+  }
+
+  .content img{
+    width: 300px;
+  }
