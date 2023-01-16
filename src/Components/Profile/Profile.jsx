@@ -1,15 +1,15 @@
 import React from "react"
-import classes from "./Content.module.css"
+import classes from "./Profile.module.css"
+import MyPosts from "./MyPosts/MyPosts"
 
-const Content = () =>{
-    return <div className={classes.content}>
+const Profile = () =>{
+    return <div className={classes.profile}>
         <img src="https://abc-decor.com/img/gallery/12/thumbs/thumb_l_PL35736.jpg" alt="img"></img>
         <p>Ava + name</p>
         <p>Info</p>
         <p>New post</p>
-        <p>Post 1</p>
-        <p>Post 2</p>
+        <MyPosts />
     </div>
 }
 
-export default Content
+export default Profile

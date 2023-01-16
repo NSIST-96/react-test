@@ -1,5 +1,5 @@
-.content{
-    grid-area: "content";
+.profile{
+    grid-area: "profile";
     grid-column: 2/-1;
     grid-row: 2;
   
@@ -8,6 +8,7 @@
     padding: 10px;
   }
 
-  .content img{
+  .profile img{
     width: 300px;
+    border-radius: 5px;
   }
