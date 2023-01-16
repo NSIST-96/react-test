@@ -1,15 +1,15 @@
 import './App.css';
-import Content from './Components/Content';
-import Footer from './Components/Footer';
-import Header from './Components/Header';
-import Navbar from './Components/Navbar';
+import Profile from './Components/Profile/Profile.jsx';
+import Footer from './Components/Footer/Footer.jsx';
+import Header from './Components/Header/Header.jsx';
+import Navbar from './Components/Navbar/Navbar.jsx';
 
 const App = () => {
   return (
     <div className="App">
       <Header />
       <Navbar />
-      <Content />
+      <Profile />
       <Footer />
     </div>
   );
