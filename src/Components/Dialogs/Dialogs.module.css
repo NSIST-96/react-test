@@ -1,0 +1,14 @@
+.Dialogs{
+    grid-area: "profile";
+    grid-column: 2/-1;
+    grid-row: 2;
+  
+    border-radius: 5px;
+    background-color: chartreuse;
+    padding: 10px;
+  }
+
+  /* .profile img{
+    width: 300px;
+    border-radius: 5px;
+  } */
